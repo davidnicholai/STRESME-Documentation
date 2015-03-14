@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Filename    : chapter_2.tex 
+%
+%   Description : This file will contain your Review of Related Literature.
+%                 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Review of Related Literature}
+\label{sec:relatedlit}
+
+This chapter discusses studies for an effective speech training system and different software that have been distributed and used by the hearing-impaired in order to learn how to speak.
+
+\section{Review of Related Paper}
+
+\subsection{Speech Training Systems}
+
+Speech is not innate for children who are deaf or with a profound hearing loss at birth. The effect of such disability obstructs a child from imitating other people’s sounds and comparing the sound he/she may be able to produce with theirs. However, the development which can’t be learned through spontaneous speech could be acquired through vision, tactile sensation, and residual hearing. Although, this learning method solely relies on the visual representation of phonemes and through tongue control movements in sustaining the speech movements. Computer-based speech therapy aided programs makes use of visual feedbacks to allow individuals with profound hearing impairments to evaluate themselves with their produced input compared with an acceptable input. By garnering the attention of the children through drawings and illustrations to demonstrate loudness, pitch contour, spectral distribution, etc., they are able to validate their produced sound \cite{oster:2006:cbs}.
+
+Speech Training Systems were developed in order to represent feedback to people with profound hearing impairment in a visually appealing manner \cite{oster:2006:cbs}. Other implementations of software address this solution by introducing gamifying elements to allow the software to be used by the direct users or under the assistance of teachers. Methods such as spectrographs, dating since 1947, have also been used to teach speech to children \cite{javkin:1993:msa}. On the other hand, tactile aid focuses on somatosensation; by using vibrators at various parts of the body to indicate numerous elements of speech such as voicing or nasalization \cite{wankhede:2014:dvs}.
+
+Strategies are often required in implementing such systems, especially to deaf children, who necessitates more efficient methods of instructions compared to hearing children. Speech training is efficient if it would be able to allow children to imitate invisible speech articulations, which could not be perceived properly by visual aids \cite{oster:1996:cac}. Oster \citeyear{oster:1996:cac} suggests that for a speech training system to considered efficient and to able to amplify the any possibility for a child to learn, a number of requirements must be achieved:
+
+\begin{itemize}
+\item “Clear instructions and pedagogical manuals must be created and made available for use with different groups of children.
+\item The visual feedback of the child’s voice and articulation should be shown immediately and without delay.
+\item The aid must be acceptable to the therapist as well as to the child, which means that the aid must be attractive, interesting, easily comprehensible, easy to handle, and motivating.
+\item The visual pattern must be natural, logical and easily understandable. This means that training parameters as, e.g., pitch could be shown vertically as pitch variations occur; intensity through the size of an object that becomes larger as a sound becomes louder and smaller as a sound becomes softer; intonation and stress through a continuous red curve; duration could be shown horizontally and voicing through a relationship between voicing and the change of a colour.
+\item The aid should provide a contrastive training, that is, the correct model of the therapist and the deviant production of the child are shown simultaneously and compared with each other.
+\item The aid should provide a flexible, individual, and structural speech and voice training and give an objective evaluation of the child’s training results.” \cite{oster:1996:cac}
+\end{itemize}
+
+A speech training system that provides visual aid will help a hearing-impaired person evaluate and correct his utterance or pronunciation \cite{wankhede:2014:dvs}. Wankhede mentions that how the feedback is presented also affects how hearing-impaired children may improve their pronunciations. The visual feedback must also be shown immediately on the computer screen without delay to prevent confusion to the child. Some children may find some speech training aids as difficult to understand, unnatural, delayed, unattractive, and unmotivating to the children. For evaluation of the speech training aid, it should have the acceptance of a speech therapist and as well as of a child, meaning that the system should be appealing, presentable, easy to use, and motivating \cite{wankhede:2014:dvs}.
+
+Aside from visual feedback that are used as aid in speech training system, there is also another type of feedback being used as aid for the hearing-impaired people in speech training - vibrotactile feedback. The Haptic Chair is a project developed by Suranga Nanayakkara, Lonce Wyse, and Elizabeth A. Taylor, to help deaf people in speech training by the use of sending vibrotactile feedback to several parts of the body such as palm and fingers \cite{nanaya:2012:hap}.
+
+\subsection{Self-Organizing Maps (SOMs)}
+
+Self-organizing map (SOM) is an artificial neural network that discovers patterns in the input data and can learn even without supervision \cite{agustin:2014:SOM}. The input is then transformed into a one or two dimensional map and a weight is given to it and perform this transformation adaptively in a topologically ordered fashion \cite{chandar:2013:srs}.
+
+SOMs have neurons or nodes in which each node/neuron has a weight that is similar in dimension as the input and these nodes are then arranged in the map to from a hexagonal or rectangular grid, connecting them to each input node \cite{agustin:2014:SOM}.
+
+At the start, the neurons are given random weight values. This is called the initialization phase. The next step of the process is determining which neuron is closest to the input via its given weight value. “The weights of the winning neuron and neurons close to it in the SOM lattice are adjusted towards the input vector” \cite{chandar:2013:srs}. This is called the competition phase \cite{agustin:2014:SOM}. Lastly, the weight of the winning neurons and its neighbors are adjusted in relation to the input pattern in this third phase called adaptation phase, hence, the SOM is created.
