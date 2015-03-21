@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  14 MAR 2015 21:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  16 MAR 2015 12:15
 entering extended mode
 **main
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.tex
@@ -209,12 +209,6 @@ LaTeX Info: Redefining \BHBI on input line 130.
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_1.tex
 Chapter 1.
-
-Overfull \hbox (2.18207pt too wide) in paragraph at lines 17--18
-\OT1/cmr/m/n/12 wherein the sys-tems take the user's lip move-ment as in-put []
-Heracleous, Beautemps,
- []
-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
@@ -225,8 +219,20 @@ Missing character: There is no ” in font cmr12!
 
 
 
-] [2]) [3]
-(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.tex
+]
+Overfull \hbox (6.64552pt too wide) in paragraph at lines 23--24
+[]\OT1/cmr/m/n/12 Computer-based speech ther-apy sys-tems that have been im-ple
+-mented are mostly
+ []
+
+[2]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+) [3] (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.tex
 Chapter 2.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -247,52 +253,51 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
-Missing character: There is no œ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no  in font cmr12!
- [5]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no œ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no  in font cmr12!
-) [6]
+ [5] [6]) [7]
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.bbl
-LaTeX Font Info:    Try loading font information for U+msa on input line 226.
+LaTeX Font Info:    Try loading font information for U+msa on input line 213.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 226.
+LaTeX Font Info:    Try loading font information for U+msb on input line 213.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 212--228
+Underfull \hbox (badness 10000) in paragraph at lines 260--276
 \OT1/cmtt/m/n/12 idc / papers / 2012 [] []The [] []Haptic [] []Chair [] []as []
  []a [] []Speech [] []Training [] []Aid [] []for [] []the []
  []
 
-[7
+[8
 
 
-]) [8] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.aux
+]
+Underfull \hbox (badness 1412) in paragraph at lines 341--355
+[]\OT1/cmr/m/n/12 Speechville.  (n.d.[]).  \OT1/cmr/m/it/12 Soft-ware: for spee
+ch-language pathol-ogy.  $\OT1/cmtt/m/n/12 http ://
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 367--379
+[]\OT1/cmr/m/n/12 Tiger DRS, I.  (n.d.[]).  \OT1/cmr/m/it/12 Speech ther-apy 5.
+  $\OT1/cmtt/m/n/12 http :// www [] .drspeech [] .com /
+ []
+
+) [9] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.aux
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\title_page.aux)
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_1.aux)
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.aux)) ) 
 Here is how much of TeX's memory you used:
- 2717 strings out of 493921
- 35493 string characters out of 3147282
- 92697 words of memory out of 3000000
- 5965 multiletter control sequences out of 15000+200000
+ 2733 strings out of 493921
+ 35813 string characters out of 3147282
+ 93991 words of memory out of 3000000
+ 5981 multiletter control sequences out of 15000+200000
  11255 words of font info for 43 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
  31i,5n,26p,1112b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -303,9 +308,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (9 pages, 100561 bytes).
+Output written on main.pdf (10 pages, 105715 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
