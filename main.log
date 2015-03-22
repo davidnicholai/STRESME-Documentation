@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  16 MAR 2015 12:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  22 MAR 2015 22:15
 entering extended mode
 **main
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.tex
@@ -166,8 +166,10 @@ LaTeX Warning: Unused global option(s):
 
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.aux
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\title_page.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\abstract.aux)
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_1.aux)
-(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.aux))
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
 LaTeX Font Info:    ... okay on input line 41.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
@@ -207,6 +209,20 @@ LaTeX Info: Redefining \BHBI on input line 130.
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}])
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\abstract.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+])
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_1.tex
 Chapter 1.
 Missing character: There is no â in font cmr12!
@@ -232,7 +248,8 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
-) [3] (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.tex
+) [3] [4]
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.tex
 Chapter 2.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -240,7 +257,7 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[4
+[5
 
 
 
@@ -257,24 +274,26 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [5] [6]) [7]
-(C:\Users\David\Documents\GitHub\STRESME-Documentation\main.bbl
-LaTeX Font Info:    Try loading font information for U+msa on input line 213.
+ [6] [7]) [8]
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.tex
+Chapter 3.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 213.
+Overfull \hbox (6.46396pt too wide) in paragraph at lines 23--24
+\OT1/cmr/m/n/12 The ap-pro-pri-ate literatures--scalar feed-back, vi-sual ap-pe
+al, speech train-ing systems--
+ []
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+[9
+
+
+
+] [10]) [11] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 260--276
 \OT1/cmtt/m/n/12 idc / papers / 2012 [] []The [] []Haptic [] []Chair [] []as []
  []a [] []Speech [] []Training [] []Aid [] []for [] []the []
  []
 
-[8
+[12
 
 
 ]
@@ -289,18 +308,20 @@ Underfull \hbox (badness 1460) in paragraph at lines 367--379
   $\OT1/cmtt/m/n/12 http :// www [] .drspeech [] .com /
  []
 
-) [9] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.aux
+) [13] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.aux
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\title_page.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\abstract.aux)
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_1.aux)
-(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.aux)) ) 
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 2733 strings out of 493921
- 35813 string characters out of 3147282
- 93991 words of memory out of 3000000
- 5981 multiletter control sequences out of 15000+200000
- 11255 words of font info for 43 fonts, out of 3000000 for 9000
+ 2753 strings out of 493921
+ 36694 string characters out of 3147282
+ 94603 words of memory out of 3000000
+ 5988 multiletter control sequences out of 15000+200000
+ 11562 words of font info for 44 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 31i,5n,26p,1112b,347s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 31i,10n,26p,1112b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKT
@@ -308,9 +329,9 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (10 pages, 105715 bytes).
+Output written on main.pdf (15 pages, 113408 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
