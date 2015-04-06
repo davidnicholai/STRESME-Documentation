@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  24 MAR 2015 21:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  6 APR 2015 20:24
 entering extended mode
 **main
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.tex
@@ -225,12 +225,6 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ])
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_1.tex
 Chapter 1.
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ” in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ” in font cmr12!
 [1
 
 
@@ -245,9 +239,6 @@ Overfull \hbox (6.64552pt too wide) in paragraph at lines 23--24
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ” in font cmr12!
 ) [3] (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.tex
 Chapter 2.
 Missing character: There is no â in font cmr12!
@@ -273,8 +264,11 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [5] [6]) [7]
-(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.tex
+ [5]
+
+LaTeX Warning: Citation `kennedy:1998:spv' undefined on input line 48.
+
+[6]) [7] (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.tex
 Chapter 3.
 
 Overfull \hbox (6.46396pt too wide) in paragraph at lines 23--24
@@ -287,7 +281,7 @@ al, speech train-ing systems--
 
 
 ] [9]) [10] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 260--276
+Underfull \hbox (badness 10000) in paragraph at lines 259--275
 \OT1/cmtt/m/n/12 idc / papers / 2012 [] []The [] []Haptic [] []Chair [] []as []
  []a [] []Speech [] []Training [] []Aid [] []for [] []the []
  []
@@ -296,15 +290,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--276
 
 
 ]
-Underfull \hbox (badness 1412) in paragraph at lines 341--355
-[]\OT1/cmr/m/n/12 Speechville.  (n.d.[]).  \OT1/cmr/m/it/12 Soft-ware: for spee
-ch-language pathol-ogy.  $\OT1/cmtt/m/n/12 http ://
+Underfull \hbox (badness 1152) in paragraph at lines 340--354
+[]\OT1/cmr/m/n/12 Speechville.  (2014).  \OT1/cmr/m/it/12 Soft-ware: for speech
+-language pathol-ogy.  $\OT1/cmtt/m/n/12 http ://
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 367--379
-[]\OT1/cmr/m/n/12 Tiger DRS, I.  (n.d.[]).  \OT1/cmr/m/it/12 Speech ther-apy 5.
-  $\OT1/cmtt/m/n/12 http :// www [] .drspeech [] .com /
+Underfull \hbox (badness 1199) in paragraph at lines 366--378
+[]\OT1/cmr/m/n/12 Tiger DRS, I.  (1998).  \OT1/cmr/m/it/12 Speech ther-apy 5.  
+$\OT1/cmtt/m/n/12 http :// www [] .drspeech [] .com /
  []
 
 ) [12] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.aux
@@ -314,13 +308,13 @@ Underfull \hbox (badness 1460) in paragraph at lines 367--379
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.aux)
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
  2753 strings out of 493921
- 36694 string characters out of 3147282
- 93603 words of memory out of 3000000
+ 36721 string characters out of 3147282
+ 94536 words of memory out of 3000000
  5988 multiletter control sequences out of 15000+200000
  11562 words of font info for 44 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
@@ -331,7 +325,7 @@ iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (14 pages, 112805 bytes).
+Output written on main.pdf (14 pages, 112514 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
