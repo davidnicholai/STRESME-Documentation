@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  8 APR 2015 11:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.23)  19 APR 2015 16:13
 entering extended mode
 **main
 (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.tex
@@ -110,13 +110,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks19
-)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -138,7 +137,23 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count101
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
@@ -228,18 +243,9 @@ Chapter 1.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-LaTeX Warning: Citation `lasak:2014:HL' undefined on input line 9.
-
-
-LaTeX Warning: Citation `bernstein:1988:STA' undefined on input line 9.
-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-LaTeX Warning: Citation `heracleous:2010:CSA' undefined on input line 17.
-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -254,29 +260,20 @@ Missing character: There is no ™ in font cmr12!
 
 
 ]
-
-LaTeX Warning: Citation `blume:2009:AE' undefined on input line 21.
-
-
-LaTeX Warning: Citation `oster:2006:cbs' undefined on input line 23.
-
-
 Overfull \hbox (6.64552pt too wide) in paragraph at lines 23--24
 []\OT1/cmr/m/n/12 Computer-based speech ther-apy sys-tems that have been im-ple
 -mented are mostly
  []
 
 [2]
-
-LaTeX Warning: Citation `agustin:2014:SOM' undefined on input line 47.
-
-
-LaTeX Warning: Citation `agustin:2014:SOM' undefined on input line 55.
-
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-) [3] [4] (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.tex
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [3]) [4]
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.tex
 Chapter 2.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -284,22 +281,13 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-
-LaTeX Warning: Citation `javkin:1993:msa' undefined on input line 20.
-
-
-LaTeX Warning: Citation `wankhede:2014:dvs' undefined on input line 20.
-
 [5
 
 
 
 ]
-
-LaTeX Warning: Citation `oster:1996:cac' undefined on input line 22.
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -310,27 +298,37 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [6]
-
-LaTeX Warning: Citation `nanaya:2012:hap' undefined on input line 35.
-
-
-LaTeX Warning: Citation `kohonen:1988:pho' undefined on input line 39.
+ [6] [7] [8]
+Underfull \hbox (badness 1237) in paragraph at lines 68--69
+[]\OT1/cmr/m/n/12 Visual and au-di-tory feed-
+ []
 
 
-LaTeX Warning: Citation `chandar:2013:srs' undefined on input line 39.
+Underfull \hbox (badness 4805) in paragraph at lines 71--72
+[]\OT1/cmr/m/n/12 70 voice-activated games;
+ []
 
 
-LaTeX Warning: Citation `speechville:2014:slp' undefined on input line 48.
+Underfull \hbox (badness 1694) in paragraph at lines 72--73
+[]\OT1/cmr/m/n/12 Immediate an-i-mated feed-
+ []
 
 
-LaTeX Warning: Citation `kennedy:1998:spv' undefined on input line 48.
+Underfull \hbox (badness 1024) in paragraph at lines 75--76
+\OT1/cmr/m/n/12 me-di-ate feed-back; aids in
+ []
 
-[7]
 
-LaTeX Warning: Citation `drspeech:1998:st5' undefined on input line 51.
+Underfull \hbox (badness 1502) in paragraph at lines 75--76
+\OT1/cmr/m/n/12 vol-ume, pitch, and vowel
+ []
 
-) [8] (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.tex
+
+Overfull \hbox (17.9325pt too wide) in paragraph at lines 62--80
+ [][] 
+ []
+
+) [9] (C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.tex
 Chapter 3.
 
 Overfull \hbox (18.21384pt too wide) in paragraph at lines 23--24
@@ -338,34 +336,59 @@ Overfull \hbox (18.21384pt too wide) in paragraph at lines 23--24
 eal, speech train-ing systems---
  []
 
-[9
+[10
 
 
 
-] [10]
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.68 ... Sep & Oct & Nov & Dec & Jan & Feb & Mar &
-                                                   Apr & May & Jun & Jul & A...
+] [11] [12] [13
 
-? exit
- 
+])
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 259--275
+\OT1/cmtt/m/n/12 idc / papers / 2012 [] []The [] []Haptic [] []Chair [] []as []
+ []a [] []Speech [] []Training [] []Aid [] []for [] []the []
+ []
+
+[14
+
+
+
+]
+Underfull \hbox (badness 1152) in paragraph at lines 340--354
+[]\OT1/cmr/m/n/12 Speechville.  (2014).  \OT1/cmr/m/it/12 Soft-ware: for speech
+-language pathol-ogy.  $\OT1/cmtt/m/n/12 http ://
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 366--378
+[]\OT1/cmr/m/n/12 Tiger DRS, I.  (1998).  \OT1/cmr/m/it/12 Speech ther-apy 5.  
+$\OT1/cmtt/m/n/12 http :// www [] .drspeech [] .com /
+ []
+
+) [15] (C:\Users\David\Documents\GitHub\STRESME-Documentation\main.aux
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\title_page.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\abstract.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_1.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_2.aux)
+(C:\Users\David\Documents\GitHub\STRESME-Documentation\chapter_3.aux)) ) 
 Here is how much of TeX's memory you used:
- 2701 strings out of 493921
- 35100 string characters out of 3147282
- 91868 words of memory out of 3000000
- 5954 multiletter control sequences out of 15000+200000
- 10710 words of font info for 40 fonts, out of 3000000 for 9000
+ 2813 strings out of 493921
+ 37915 string characters out of 3147282
+ 98147 words of memory out of 3000000
+ 6034 multiletter control sequences out of 15000+200000
+ 11562 words of font info for 44 fonts, out of 3000000 for 9000
  843 hyphenation exceptions out of 8191
- 31i,10n,26p,1112b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (12 pages, 80785 bytes).
+ 38i,11n,26p,1112b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (17 pages, 116352 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 81 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
