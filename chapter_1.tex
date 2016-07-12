@@ -37,7 +37,7 @@ To implement a feedback system for speech training that provides measurable visu
 
 \begin{enumerate}
 \item To understand how feedback mechanisms of existing speech training software can be used to improve the implemented system
-\item To design a system that trains hearing-impaired children in speaking consonant-diphthong combinations through visual feedback
+\item To design a system that trains hearing-impaired children in uttering phonemes through visual feedback
 \item To implement a system that recognizes different phonetic sounds from an audio clip that utters a phoneme sound
 \item To identify and compare different methods and design of visual feedback in speech training systems
 \item To evaluate the accuracy of the implemented system's model
@@ -49,22 +49,22 @@ To implement a feedback system for speech training that provides measurable visu
 
 The research will strictly focus on feedback mechanisms. Motivating or having the users be engaged into using the system will not be considered as the research will be focusing on providing visual feedback.
 
-The research will cater to only having consonant-diphthong combinations in the system as these are considered to be stepping stones for Deaf students into forming actual words.
+The research will cater to only having a fixed set of words in the system. The set of words is provided by the institute the researchers have partnered with. Each word in the set will then be syllabicated into phonemes. Only the syllabicated words will be provided with the measurable visual feedback. The visual feedback for the entire word may only display "correct" or "incorrect".
 
-The feedback system will only process WAV audio clips with the user saying consonant-diphthong combinations as input into the feedback system. Components of the GUI such as the video playback and web camera display will only be used as additional aid to the user. The feedback to be displayed to the trainee will only be visual, meaning the feedback will not be discerned by senses other than sight.
+The feedback system will only process WAV audio clips with the user saying phonemes as input into the feedback system. Components of the GUI such as the video playback and web camera display will only be used as additional aid to the user. The feedback to be displayed to the trainee will only be visual, meaning the feedback will not be discerned by senses other than sight.
 
-For the implementation of the feedback system, the master's thesis of Natalie Agustin \citeyear{agustin:2014:SOM} will be used. Agustin's research is a mapping prototype using Self-Organizing Maps (SOMs) which encodes a voice recording into coefficients and distinguishes which vowel a user had spoken. Agustin's thesis will be used for the system to distinguish which consonant-diphthong combination the trainee had spoken. The speech feedback system will cater to a fixed set of consonant-diphthong combinations, considering the diphthongs that the prototype can detect and the top three consonants ('T', 'N', and 'S') as mentioned by Robert Lewand \citeyear{lewand:2000:crymath}. The speech feedback system will run on a desktop or a laptop machine, as these are accessible and widely-used. 
+For the implementation of the feedback system, the master's thesis of Natalie Agustin \citeyear{agustin:2014:SOM} will be used. Agustin's research is a mapping prototype using Self-Organizing Maps (SOMs) which encodes a voice recording into coefficients and distinguishes which vowel a user had spoken. Agustin's thesis will be used for the system to distinguish which phoneme the trainee had spoken. The speech feedback system will cater to a fixed set of phonemes. The speech feedback system will run on a desktop or a laptop machine, as these are accessible and widely-used. 
 
 %SCOPE OF PHONEMES WE WILL CONSIDER
 
 \section{Significance of the Research}
 \label{sec:significance}
 
-The thesis will assist the Deaf in learning the pronunciations of consonant-diphthong combinations. Current speech training software in the industry only show graphical illustrations of the user's voice input and the goal in which the user must achieve. This method however lacks in providing scalar feedback of the input of the user. The thesis will be providing feedback as to how the trainee can correctly pronounce consonant-diphthong combinations by displaying how far or how near they are from the correct pronunciation.
+The thesis will assist the Deaf in learning the pronunciations of different phonemes. Current speech training software in the industry only show graphical illustrations of the user's voice input and the goal in which the user must achieve. This method however lacks in providing measurable feedback of the input of the user. The thesis will be providing feedback as to how the trainee can correctly pronounce phonemes by displaying how far or how near they are from the correct pronunciation. The visual feedback provided to the users of the system will improve their performance in learning different phonemes.
 
 Deaf schools may make use of the system as a teaching and evaluation tool for their students.
 
-The thesis may serve as a basis for future implementations of speech training software which may cater not only consonant-diphthong combinations, but with a bigger set of training data.
+The thesis may serve as a basis for future implementations of speech training software which may cater not only to a fixed set of phonemes, but with a bigger set of training data.
 
 \section{Research Methodology}
 \label{sec:methodology}
@@ -72,33 +72,50 @@ The thesis may serve as a basis for future implementations of speech training so
 \subsection{Research Activities}
 The research activities will be divided into the following phases:
 \begin{enumerate}
-\item Gathering of Data
+\item Gathering Literature
 \item Research and Comparison
+\item Partnering with an Institute
+\item Data Collection and Model Training
 \item Implementation of the Software
-\item Testing and Evaluation of the Software
+\item Testing the Accuracy of the Model
+\item Field Tests and Evaluation of the Feedback System
 \end{enumerate}
 
-\subsubsection{Gathering of Data}
-The appropriate literature---scalar feedback, visual appeal, speech training systems---are to be gathered in order to design and implement an effective speech feedback system. Several textbooks and journals are available in the institution where the proponents are studying in. The proponents also have to look for Deaf schools who are willing to let the researchers conduct interviews with their students for the sole purpose of creating an effective speech feedback system. Deaf schools that are accessible in terms of distance are College of St. Benilde - School of Deaf Education and Applied Studies, and Philippine Institute for the Deaf. On the first interview, if the school had agreed to help the researchers, the age range of the testers (hearing-impaired) will be asked. Also, if available, their available schedules for usability testing and software evaluation (effectiveness of the feedback system). Their current speech training methods are to be asked as well during the interview in order for the researchers to know how they can improve the software.
+\subsubsection{Gathering Literature}
+The appropriate literature---visual feedback mechanisms, speech training systems, phonemes, speech training---are gathered in order to design and implement an effective speech feedback system. Several textbooks and journals are available in the institution where the proponents are studying in.
 
 \subsubsection{Research and Comparison}
-After having gathered data, the group is then tasked to research and compare different literatures and ideas. There are several ways of providing visual and scalar feedback to users. However, the group should only select the more effective ways of providing visual and scalar feedback. With this, it is important to look behind the science of these visual feedback and how effective they are.
+After having gathered data, the group is then tasked to research and compare different literature and ideas. There are several ways of providing visual and measurable feedback to users. However, the group should only select the more effective ways of providing said kind of feedback. With this, it is important to look behind the science of these visual feedback and how effective they are.
 
 There are several speech training software created by different companies. IBM, for one, created SpeechViewer which is used by speech therapists to train those with hearing-impairment. The software provides a feature wherein the therapist can record training sessions in order to see the improvements of their patients. Though the software may be outdated, it may serve as a reference on how a speech training process works. Viewing other speech training software may help the thesis group in gathering ideas in order to create an effective feedback system.
 
-\subsubsection{Implementation of the Software}
-The feedback system must be effective and easy to use. The mapping software of Natalie Agustin \citeyear{agustin:2014:SOM} will be integrated into the speech feedback system in order for the voice input, which the proponents will implement, to be recognized and provide the corresponding mapping which determines the consonant-diphthong combination that was spoken by the user. Implementation will be performed in approximately 16 weeks. The proponents will also conduct interviews with Deaf schools to demonstrate the prototype and test the software's effectiveness. 11 weeks will be spent for improving the software such that the feedback displayed is comprehensible.
+\subsubsection{Partnering with an Institute}
+The researchers searched for Deaf institutes who are open in allowing the researchers to conduct interviews with their teachers and students for the sole purpose of creating an effective speech feedback system. The Philippine Institute for the Deaf has agreed to aid in this research. The researchers inquired with the institute in aiding them with this research, however, since it was only an inquiry, the institute did not allow them to document the session as there was no agreement or contract yet between the two parties.
 
-\subsubsection{Testing and Evaluation of the Software}
-To determine how effective the implemented software is, the researchers are going to have the program tested by the hearing-impaired, guided by their speech trainers. The researchers would like to know if the software is good in terms of usability, effectivity, and comprehension. This way, the researchers will know how to further improve the software. 11 weeks will be spent for testing and evaluation. The proponents will be heading to Deaf schools who have agreed to help them with this research. If the feedback system is lacking, the researchers will have to improve on it and head back to the schools to test the improved system. The metric for measuring the effectiveness and comprehensiveness of the feedback system will be determined by the researchers after conducting the initial interview with the Deaf schools.
+\subsubsection{Implementation of the Software}
+The feedback system must be effective and easy to use. The mapping software of Natalie Agustin \citeyear{agustin:2014:SOM} will be integrated into the speech feedback system in order for the voice input, which the proponents have implemented, to be recognized and provide the corresponding mapping which determines the phoneme that was spoken by the user. Implementation will be performed until the second stage of the thesis.
+
+\subsubsection{Data Collection and Model Training}
+The researchers will collect audio clips of teachers pronouncing the different words and syllabicated words. Each word and phoneme will be recorded 10 times in order to train the SOM model and increase its accuracy. Once data have been gathered, the audio clips will then be framed, cutting out noise in the audio. The SOM will then be trained by feeding all processed audio recordings into the SOM. The trained SOM should then be able to recognize phonemes.
+
+\subsubsection{Testing the Accuracy of the Model}
+The accuracy of the SOM model will be determined in order to see if the model classifies processed audio clips correctly. The accuracy is computed by the number of correct classifications over the total number of instances. This will be achieved by having the researchers record their own utterances to see if the SOM will map each sound to its corresponding node. The built SOM model will be used to classify the phonemes pronounced in the testing dataset.
+
+\subsubsection{Field Tests and Evaluation of the Feedback System}
+To determine how effective the implemented software is, the researchers are going to have the program tested by the hearing-impaired, guided by their speech trainers. The researchers will have to go to the school and teach the teachers on how to use the system. The researchers would like to know if the visual feedback given performs well in guiding the student in learning the fixed set of phonemes. This way, the researchers will know how to further improve the software. The researchers will be providing the teachers with surveys in order to determine how the feedback mechanism had helped the students in learning.
+
+The field test will be conducted by having two groups, the control group and the experimental group. Each group will consist of 5 students. The control group will make use of their current method of teaching, and the experimental group will make use of the feedback software. Each group will not be taught altogether, but rather each student will have a session to use the software (if he or she is in the experimental group) or he or she will have a one-on-one session with the teacher (if he or she is in the control group). In each session of each student, the teachers will be tracking their learning curve by noting how fast a child learned a phoneme. A questionnaire or evaluation sheet will be provided to teachers in order to track each student's sessions. The field test will be conducted for four weeks.
+
+The performance metric for system evaluation will be each student's learning curve. Based from the feedback the student is getting, with each try, the researchers will see if the student is getting closer to the target.
+
+\subsubsection{Resources}
+To perform the field tests, the Philippine Institute for the Deaf has agreed to provide the researchers with ten students ranging from the fourth elementary grade up to the sixth elementary grade. A fixed fee of PHP 300.00 per researcher is needed before the field test can be performed. Having four researchers in this study, the total fee will amount to PHP 1200.00. A laptop machine with an integrated microphone is also needed in order to deploy the speech feedback system to the institute.
 
 \pagebreak
-\begin{landscape}
 \subsection{Calendar of Activities}
 
-
-%Table \ref{tab:timetableactivities} shows a Gantt chart of the activities. Each bullet represents approximately one week worth of activity.
-Table 3.1 shows a Gantt chart of the activities. Each bullet represents approximately one week worth of activity.
+% Table \ref{tab:timetableactivities} shows a Gantt chart of the activities. Each bullet represents approximately one week worth of activity.
+The tables below each show a Gantt chart of activities. Each bullet represents approximately one week's worth of activity.
 
 %
 %  the following commands will be used for filling up the bullets in the Gantt chart
@@ -108,40 +125,50 @@ Table 3.1 shows a Gantt chart of the activities. Each bullet represents approxim
 \newcommand{\weekthree}{\textbullet \textbullet \textbullet}
 \newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
 
-%
-%  alternative to bullet is a star 
-%
-\begin{comment}
-   \newcommand{\weekone}{$\star$}
-   \newcommand{\weektwo}{$\star \star$}
-   \newcommand{\weekthree}{$\star \star \star$}
-   \newcommand{\weekfour}{$\star \star \star \star$ }
-\end{comment}
-
-
-
-\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+\begin{table}[!htbp]
 \centering
-\caption{Timetable of Activities} \vspace{0.25em}
-\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
-\centering Activities (2015)				& Mar		&Apr		& May		& Jun		& Jul		& Aug		& Sep		& Oct		& Nov		& Dec			\\ \hline
-Gathering of Data							& \weekfour &\weektwo~~~&~\weekthree&			& \weekone	&			&			&			&			&				\\ \hline
-Research and Comparison						& \weekfour &\weektwo~~~&~\weekthree&			&			&			&			&			&			&				\\ \hline
-Implementation of the Software				&			&			&			& 			& 			& \weekfour & \weekfour & \weekfour	& \weekfour	&\weekone~~~~~	\\ \hline
-Documentation								& \weekfour &\weektwo~~~&~\weekthree& 			&			&			& \weekfour & \weekfour	& \weekfour	&\weekone~~~~~	\\ \hline
+\caption{Timetable of Activities for March 2015 to July 2015} \vspace{0.25em}
+\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
+\centering Activities			& Mar		& Apr			& May			& Jun		& Jul			\\ \hline
+Gathering Literature			& \weekfour	&				&				&~~~~~~		&					\\ \hline
+Research and Comparison			&			&\weektwo~~~~	&~\weekthree	&			&				\\ \hline
+Partnering with an Institute	&			&				&				&			&~\weekone~~~	\\ \hline
+Documentation					& \weekfour	&\weektwo~~~~	&~\weekthree	&			&~\weekone~~~	\\ \hline
 \end{tabular}
-\label{tab:timetableactivities2015}
+\label{tab:timetableactivities1}
 \end{table}
 
-\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+\begin{table}[!htbp]
 \centering
-\caption{Timetable of Activities} \vspace{0.25em}
-\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|} \hline
-\centering Activities (2016)				& Jan		& Feb		& Mar		& Apr		 & May		 & Jun		& Jul		& Aug		\\ \hline
-Testing and Evaluation of the Software		&~~~\weektwo& \weekfour &\weekthree~~&\weektwo~~~&~\weektwo~~& \weekfour & \weekfour&~~~\weektwo\\ \hline
-Documentation								&~~~\weektwo& \weekfour &\weekthree~~&\weektwo~~~&~\weektwo~~& \weekfour & \weekfour &~~~\weektwo\\ \hline
+\caption{Timetable of Activities for August 2015 to December 2015} \vspace{0.25em}
+\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
+\centering Activities				& Aug		& Sept		& Oct			& Nov		& Dec			\\ \hline
+Partnering with an Institute		& 			&			&				&\weekone~~~&				\\ \hline
+Implementation of the Software		& \weekfour	& \weekfour	& \weekfour		& \weekfour	&\weektwo~~~	\\ \hline
+Data Collection and Model Training	&			&			&				&			&\weektwo~~~	\\ \hline
+Documentation						& \weekfour	& \weekfour	& \weekfour		& \weekfour	&\weektwo~~~	\\ \hline
 \end{tabular}
-\label{tab:timetableactivities2016}
+\label{tab:timetableactivities2}
 \end{table}
 
-\end{landscape}
+\begin{table}[!htbp]
+\centering
+\caption{Timetable of Activities for January 2016 to May 2016} \vspace{0.25em}
+\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
+\centering Activities						& Jan		& Feb		& Mar		& Apr		& May		\\ \hline
+Field Tests and Evaluation of the System	&~\weekthree&\weektwo~~~&\weekfour	&~~~~~~		&~~~~~		\\ \hline
+Documentation								&~\weekthree&\weektwo~~~&\weekfour	&			&			\\ \hline
+\end{tabular}
+\label{tab:timetableactivities3}
+\end{table}
+
+\begin{table}[!htbp]
+\centering
+\caption{Timetable of Activities for June 2016 to August 2016} \vspace{0.25em}
+\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
+\centering Activities						& Jun		& Jul		& Aug		& 			& 		\\ \hline
+Field Tests and Evaluation of the System	&~~\weektwo	&			&			&~~~~~~		&~~~~~		\\ \hline
+Documentation								&~~\weektwo	&\weekfour	&			&			&			\\ \hline
+\end{tabular}
+\label{tab:timetableactivities4}
+\end{table}
